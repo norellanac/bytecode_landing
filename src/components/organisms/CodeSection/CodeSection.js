@@ -14,13 +14,13 @@ const NewSection = () => {
     <Box
       sx={{
         backgroundColor: 'white', // Fondo blanco para toda la sección
-        padding: '50px 0', // Espaciado alrededor de la sección
+        padding: '20px 0', // Espaciado alrededor de la sección
       }}
     >
       <Grid
         container
         spacing={2}
-        sx={{ padding: '100px 60px', alignItems: 'center' }}
+        sx={{ padding: '10px 20px', alignItems: 'center' }}
       >
         <Grid item xs={12} md={6}>
           <Box
