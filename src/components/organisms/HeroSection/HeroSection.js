@@ -42,17 +42,17 @@ const HeroSection = () => {
         xs={12}
         md={6}
         className="hero-content"
-        sx={{ padding: '200px 50px' }}
+        sx={{ padding: '130px 50px' }}
       >
         <Typography variant="h3" sx={{ fontWeight: 'medium', mb: 2 }}>
           {t('heroSection.hero_title_1')}
           <span className="icon">
             <img src={CodeCircle} alt="Code Circle" />
-          </span>{' '}
+          </span>
         </Typography>
         <Typography
           variant="h3"
-          sx={{ fontWeight: 'medium', mb: 2, padding: '0px 0px 50px 0px' }}
+          sx={{ fontWeight: 'medium', mb: 2, padding: '0px 0px 20px 0px' }}
         >
           {t('heroSection.hero_title_2')}
         </Typography>
@@ -61,7 +61,7 @@ const HeroSection = () => {
           <img src={Icon} alt="byteCode icon" />
         </Grid>
 
-        <Typography variant="h6" sx={{ mb: 4, padding: '0px 0px 50px 0px' }}>
+        <Typography variant="h6" sx={{ mb: 4, padding: '0px 0px 20px 0px' }}>
           {t('heroSection.hero_subtitle')}
         </Typography>
         <Button

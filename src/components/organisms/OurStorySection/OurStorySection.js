@@ -17,7 +17,7 @@ const OurStorySection = () => {
       }}
     >
       <Grid container spacing={2}>
-        <Grid xs={12} md={8} sx={{ padding: '75px 70px' }}>
+        <Grid xs={12} md={8} sx={{ padding: '30px 70px' }}>
           <Typography
             variant="h3"
             fontFamily="Aeonik"
@@ -37,7 +37,7 @@ const OurStorySection = () => {
               xs={12}
               md={6}
               sx={{
-                padding: '50px 30px',
+                padding: '30px 30px',
               }}
             >
               <Box mt={4}>
@@ -57,7 +57,7 @@ const OurStorySection = () => {
             </Grid>
 
             {/* Vision */}
-            <Grid xs={12} md={6} sx={{ padding: '40px 30px' }}>
+            <Grid xs={12} md={6} sx={{ padding: '30px 30px' }}>
               <Box mt={4}>
                 <img src={visionIcon} alt="Icono" style={{ width: '50px' }} />
               </Box>
