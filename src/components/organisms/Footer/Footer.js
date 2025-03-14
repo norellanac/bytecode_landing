@@ -9,9 +9,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <Box
-      sx={{ width: '100%', backgroundColor: '#010101', padding: '100px 100px' }}
-    >
+    <Box sx={{ width: '100%', backgroundColor: '#010101', p: { xs: 5, md: 15 } }}>
       <Box
         sx={{
           minHeight: '50vh',
@@ -19,7 +17,7 @@ const Footer = () => {
           justifyContent: 'center',
           alignItems: 'center',
           backgroundColor: '#DDF247',
-          padding: '30px',
+          padding: { xs: '20px', md: '30px' },
           borderRadius: '30px',
         }}
       >
@@ -35,7 +33,7 @@ const Footer = () => {
 
           <Grid item xs={12} md={6}>
             <Grid container spacing={2}>
-              <Grid item xs={6}>
+              <Grid item xs={12} sm={6}>
                 <TextField
                   fullWidth
                   label={t('footer.name')}
@@ -43,7 +41,7 @@ const Footer = () => {
                   variant="standard"
                 />
               </Grid>
-              <Grid item xs={6}>
+              <Grid item xs={12} sm={6}>
                 <TextField
                   fullWidth
                   label={t('footer.email')}
@@ -89,25 +87,25 @@ const Footer = () => {
         sx={{
           backgroundColor: 'black',
           color: 'white',
-          padding: '75px 0',
+          py: { xs: 5, md: 10 },
         }}
       >
         <Grid container spacing={2} justifyContent="center" alignItems="center">
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={6} sx={{ textAlign: { xs: 'center', md: 'left' } }}>
             <img src={LogoByteCodeWhite} alt="byteCode Logo" />
           </Grid>
 
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={6} sx={{ textAlign: { xs: 'center', md: 'right' } }}>
             <Box
               sx={{
                 display: 'flex',
-                justifyContent: 'right',
-                alignItems: 'right',
+                justifyContent: { xs: 'center', md: 'flex-end' },
+                alignItems: 'center',
               }}
             >
-              <LinkedIn sx={{ color: 'white', marginRight: '15px' }} />
-              <Email sx={{ color: 'white', marginRight: '15px' }} />
-              <Instagram sx={{ color: 'white', marginRight: '15px' }} />
+              <LinkedIn sx={{ color: 'white', mr: 3 }} />
+              <Email sx={{ color: 'white', mr: 3 }} />
+              <Instagram sx={{ color: 'white', mr: 3 }} />
               <Facebook sx={{ color: 'white' }} />
             </Box>
           </Grid>
@@ -118,13 +116,12 @@ const Footer = () => {
             marginTop: '20px',
             borderTop: '1px solid white',
             paddingTop: '10px',
+            textAlign: { xs: 'center', md: 'right' },
           }}
         >
           <Typography
             variant="h6"
             fontFamily="Aeonik"
-            display="flex"
-            justifyContent="flex-end"
           >
             © 2024 Copyright. |{' '}
             <a href="https://bytecode.com" style={{ color: '#DDF247' }}>

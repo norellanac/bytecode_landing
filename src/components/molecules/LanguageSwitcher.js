@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Select, MenuItem } from '@mui/material';
+import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
 
 function LanguageSwitcher() {
   const { i18n } = useTranslation();
@@ -9,6 +9,11 @@ function LanguageSwitcher() {
     const selectedLanguage = event.target.value;
     i18n.changeLanguage(selectedLanguage);
   };
+
+  useEffect(() => {
+    i18n.changeLanguage('en');
+  }
+  , []);
 
   return (
     <Select
