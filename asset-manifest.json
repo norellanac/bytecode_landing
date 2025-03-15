@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.5590dd53.css",
-    "main.js": "/static/js/main.b64a5991.js",
+    "main.js": "/static/js/main.260acd78.js",
     "static/media/heroImage.png": "/static/media/heroImage.b7e0d0ba6c488c392839.png",
     "static/media/byteCode_ourStory.png": "/static/media/byteCode_ourStory.19763ff3a5a3b151858f.png",
+    "static/media/reco.png": "/static/media/reco.33f2ec9ec2b147e1bb10.png",
+    "static/media/cometas.png": "/static/media/cometas.74c5eaf8e64faaef534e.png",
     "static/media/CodeSection.png": "/static/media/CodeSection.1ffc7ba208462c90517a.png",
+    "static/media/swagger-ui-docs.png": "/static/media/swagger-ui-docs.5018d7ae149f660f26e1.png",
     "static/media/redux_logo.svg": "/static/media/redux_logo.6a38fb6a01ef8e1a309f30989e9b908e.svg",
     "static/media/byteCode_Logo_white.svg": "/static/media/byteCode_Logo_white.a2b0591e8a7385ffe3f8fe96c4c71a98.svg",
     "static/media/byteCode_Logo.svg": "/static/media/byteCode_Logo.5f974110bd02000d4eebef9e64823a36.svg",
@@ -25,10 +28,10 @@
     "static/media/icon_arrow-up-right.svg": "/static/media/icon_arrow-up-right.d3a9f5b0910c958791ee71a281ea46ee.svg",
     "static/media/missionIcon.svg": "/static/media/missionIcon.26a7569c8191364a575773860fd4d09e.svg",
     "main.5590dd53.css.map": "/static/css/main.5590dd53.css.map",
-    "main.b64a5991.js.map": "/static/js/main.b64a5991.js.map"
+    "main.260acd78.js.map": "/static/js/main.260acd78.js.map"
   },
   "entrypoints": [
     "static/css/main.5590dd53.css",
-    "static/js/main.b64a5991.js"
+    "static/js/main.260acd78.js"
   ]
 }
