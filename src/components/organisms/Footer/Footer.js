@@ -1,12 +1,33 @@
-import React from 'react';
-import { Box, Typography, TextField, Button, Grid } from '@mui/material';
+import React, { useState } from 'react';
+import { Box, Typography, TextField, Button, Grid, Link } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-import { LinkedIn, Email, Instagram, Facebook } from '@mui/icons-material';
+import { LinkedIn, Email, WhatsApp } from '@mui/icons-material';
 import LogoByteCodeWhite from '../../../assets/images/byteCode_Logo_white.svg';
 import MyIcon from '../../../assets/images/icon_arrow-up-right.svg';
 
 const Footer = () => {
   const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = () => {
+    const { name, email, message } = formData;
+    const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+    const whatsappUrl = `https://wa.me/50233120413?text=${whatsappMessage}`;
+    window.open(whatsappUrl, '_blank');
+  };
 
   return (
     <Box sx={{ width: '100%', backgroundColor: '#010101', p: { xs: 5, md: 15 } }}>
@@ -37,6 +58,9 @@ const Footer = () => {
                 <TextField
                   fullWidth
                   label={t('footer.name')}
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
                   fontFamily="Aeonik"
                   variant="standard"
                 />
@@ -45,6 +69,9 @@ const Footer = () => {
                 <TextField
                   fullWidth
                   label={t('footer.email')}
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   fontFamily="Aeonik"
                   variant="standard"
                 />
@@ -53,6 +80,9 @@ const Footer = () => {
                 <TextField
                   fullWidth
                   label={t('footer.message')}
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
                   multiline
                   rows={4}
                   fontFamily="Aeonik"
@@ -62,7 +92,7 @@ const Footer = () => {
               <Grid item xs={12}>
                 <Button
                   variant="contained"
-                  href="#cta"
+                  onClick={handleSubmit}
                   sx={{
                     backgroundColor: '#010101',
                     color: 'white',
@@ -73,7 +103,7 @@ const Footer = () => {
                   {t('footer.button')}
                   <img
                     src={MyIcon}
-                    alt="Ícono de enviar mensaje"
+                    alt="Send Icon"
                     style={{ marginLeft: '10px' }}
                   />
                 </Button>
@@ -103,10 +133,15 @@ const Footer = () => {
                 alignItems: 'center',
               }}
             >
-              <LinkedIn sx={{ color: 'white', mr: 3 }} />
-              <Email sx={{ color: 'white', mr: 3 }} />
-              <Instagram sx={{ color: 'white', mr: 3 }} />
-              <Facebook sx={{ color: 'white' }} />
+              <Link href="https://www.linkedin.com/company/bytecodegt" target="_blank" sx={{ color: 'white', mr: 3 }}>
+                <LinkedIn />
+              </Link>
+              <Link href="mailto:bytecodelatam@gmail.com" sx={{ color: 'white', mr: 3 }}>
+                <Email />
+              </Link>
+              <Link href="https://wa.me/50233120413" target="_blank" sx={{ color: 'white' }}>
+                <WhatsApp />
+              </Link>
             </Box>
           </Grid>
         </Grid>
@@ -123,9 +158,9 @@ const Footer = () => {
             variant="h6"
             fontFamily="Aeonik"
           >
-            © 2024 Copyright. |{' '}
-            <a href="https://bytecode.com" style={{ color: '#DDF247' }}>
-              bytecode.com
+            © {currentYear} Copyright. |{' '}
+            <a href="http://bytecodelatam.com/" style={{ color: '#DDF247' }}>
+              bytecodelatam.com
             </a>
           </Typography>
         </Box>

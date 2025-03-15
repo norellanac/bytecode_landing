@@ -11,10 +11,12 @@ import Box from '@mui/material/Box';
 import mobileAppIcon from '../../../assets/images/mobile_app_icon.svg';
 import devAppIcon from '../../../assets/images/web_dev_icon.svg';
 import qaConsultingIcon from '../../../assets/images/qaConsultingIcon.svg';
+import { useMediaQuery } from '@mui/material';
 
 const FeaturesSection = () => {
   const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0); 
+  const isMobileScreen = useMediaQuery('(max-width:600px)');
 
     const slides = [
     {
@@ -71,7 +73,7 @@ const FeaturesSection = () => {
       <Grid2 size={{ xs: 12, md: 8 }}>
         <Swiper
           spaceBetween={30}
-          slidesPerView={2.5}
+          slidesPerView={isMobileScreen ? 1.15 : 2.2}      
           onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)} // Actualizamos el índice activo
         >
           {slides.map((slide, index) => (

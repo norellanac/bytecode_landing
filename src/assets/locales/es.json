@@ -1,53 +1,53 @@
 {
-    "heroSection": {
-        "hero_title_1": "Convirtiendo ideas ",
-        "hero_title_2": " en productos digitales.",
-        "hero_subtitle": "Soluciones innovadoras en desarrollo móvil y desarrollo Web.",
-        "hero_cta": "Conocer más"
-    },
-    "featuresSection": {
-        "features_title": "Soluciones a medida para tus necesidades",
-        "features_description": "Ofrecemos soluciones especiales para Startups.",
-        "mobile_app_title": "Desarrollo de Aplicaciones Móviles",
-        "mobile_app_description": "Creamos aplicaciones móviles innovadoras y funcionales para iOS y Android, adaptadas a las necesidades de tu negocio.",
-        "web_dev_title": "Desarrollo Web",
-        "web_dev_description": "Nuestro equipo diseña y desarrolla sitios web receptivos y de alto rendimiento que impulsan el compromiso y el crecimiento.",
-        "qa_title": "Consultoría MVP",
-        "qa_description": "Transforma tu idea en un MVP exitoso. Nuestra consultoría te brinda las herramientas y el conocimiento necesarios para validar tu producto y alcanzar el mercado más rápido."
-        },
-    "codeSection": {
-        "code_title": "El lenguaje definitivo para crear páginas web",
-        "code_description": "Publique su sitio web en un entorno de alojamiento de alta velocidad y confiabilidad. ¡Escale fácilmente y comience a codificar!"
-        },
-    "ourStory": {
-        "ourStory_title": "Historia de byteCode",
-        "ourStory_description": "Somos un equipo apasionado de innovadores digitales comprometidos con convertir tus ideas en realidad. Con experiencia en desarrollo móvil y web, ofrecemos soluciones que no solo funcionan, sino que también sorprenden y satisfacen a tus usuarios.",
-        "mission_title": "Misión",
-        "mission_description": "Impulsar el crecimiento y el éxito de las empresas a través de soluciones digitales innovadoras y de calidad.",
-        "vision_title": "Visión",
-        "vision_description": "Ser el socio tecnológico de confianza para startups, brindando soluciones de software personalizadas y de alta calidad."
-        },
-    "ourProjects": {
-        "ourProjects_title": "Nuestros Proyectos",
-        "ourProjects_description": "Explora nuestro portafolio y descubre cómo nuestras soluciones digitales han ayudado a nuestros clientes a alcanzar sus objetivos."
-    },
-    "faqSection": {
-        "faqSection_title": "Preguntas Frecuentes",
-        "question_1": "¿Puedo encontrar la información correcta más rápido?",
-        "answer_1": "Nulla lectus lectus, suscipit at posuere sit amet, imperdiet sit amet sapien...",
-        "question_2": "How to share feature demos and ideas?",
-        "answer_2": "Nulla lectus lectus, suscipit at posuere sit amet, imperdiet sit amet sapien...",
-        "question_3": "Can I find the right information faster?",
-        "answer_3": "How to get insights from users?",
-        "question_4": "Can I develop my website without code?",
-        "answer_4": "Can I develop my website without code?"
-    },
-    "footer": {
-        "footer_title": "¡Contáctanos ahora!",
-        "footer_description": "¿Tienes una idea brillante? Déjanos ayudarte a convertirla en realidad.",
-        "name": "Nombre",
-        "email": "Correo electrónico",
-        "message": "Cuéntanos tus objetivos y desafíos.",
-        "button": "Enviar"
-    }
+  "heroSection": {
+    "hero_title_1": "Convirtiendo ideas ",
+    "hero_title_2": " en productos digitales.",
+    "hero_subtitle": "Soluciones innovadoras en desarrollo de software y outsourcing de ingenieros.",
+    "hero_cta": "Conocer más"
+  },
+  "featuresSection": {
+    "features_title": "Soluciones a medida para tus necesidades",
+    "features_description": "Ofrecemos soluciones especiales para Startups.",
+    "mobile_app_title": "Desarrollo de Aplicaciones Móviles",
+    "mobile_app_description": "Creamos aplicaciones móviles innovadoras y funcionales para iOS y Android, adaptadas a las necesidades de tu negocio.",
+    "web_dev_title": "Desarrollo Web",
+    "web_dev_description": "Nuestro equipo diseña y desarrolla sitios web receptivos y de alto rendimiento que impulsan el compromiso y el crecimiento.",
+    "qa_title": "Outsourcing de Ingenieros",
+    "qa_description": "Aprovecha nuestro grupo de ingenieros calificados para acelerar tus proyectos y alcanzar tus objetivos empresariales."
+  },
+  "codeSection": {
+    "code_title": "El lenguaje definitivo para crear páginas web",
+    "code_description": "Publique su sitio web en un entorno de alojamiento de alta velocidad y confiabilidad. ¡Escale fácilmente y comience a codificar!"
+  },
+  "ourStory": {
+    "ourStory_title": "Nuestra Historia",
+    "ourStory_description": "Fundada por un equipo apasionado de innovadores digitales en LATAM, byteCode se dedica a transformar tus ideas en realidad. Con experiencia en desarrollo de software y outsourcing de ingenieros, ofrecemos soluciones que no solo funcionan, sino que también son innovadoras y fáciles de usar.",
+    "mission_title": "Misión",
+    "mission_description": "Ofrecer soluciones digitales innovadoras y de alta calidad que empoderen a las empresas en EE.UU. y Europa para alcanzar sus objetivos.",
+    "vision_title": "Visión",
+    "vision_description": "Ser el socio tecnológico de confianza para startups, proporcionando soluciones de software personalizadas y talento de ingeniería de alta calidad que impulsen su crecimiento y éxito."
+  },
+  "ourProjects": {
+    "ourProjects_title": "Nuestros Proyectos",
+    "ourProjects_description": "Descubre cómo hemos transformado ideas en productos digitales exitosos para nuestros clientes. Desde aplicaciones móviles hasta portales web, explora nuestro portafolio y ve el impacto de nuestro trabajo."
+  },
+  "faqSection": {
+    "faqSection_title": "Preguntas Frecuentes",
+    "question_1": "¿Qué servicios ofrecen?",
+    "answer_1": "Ofrecemos desarrollo de aplicaciones móviles, desarrollo web y outsourcing de ingenieros adaptados a las necesidades de tu negocio.",
+    "question_2": "¿Cómo puedo empezar con sus servicios?",
+    "answer_2": "Puedes comenzar contactándonos a través de nuestro sitio web o enviándonos un correo electrónico. Discutiremos los requisitos de tu proyecto y te proporcionaremos una solución personalizada.",
+    "question_3": "¿Cuál es su enfoque para la gestión de proyectos?",
+    "answer_3": "Seguimos un enfoque de gestión de proyectos ágil, asegurando flexibilidad y entrega oportuna de soluciones de alta calidad.",
+    "question_4": "¿Cómo aseguran la calidad de sus servicios?",
+    "answer_4": "Contamos con un equipo de QA dedicado y seguimos las mejores prácticas en desarrollo de software para garantizar la más alta calidad de nuestros servicios."
+  },
+  "footer": {
+    "footer_title": "¡Contáctanos ahora!",
+    "footer_description": "¿Tienes una idea brillante? Déjanos ayudarte a convertirla en realidad.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Cuéntanos más sobre tu proyecto.",
+    "button": "Enviar"
+  }
 }

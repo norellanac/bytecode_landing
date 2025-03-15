@@ -1,53 +1,53 @@
 {
-    "heroSection": {
-        "hero_title_1": "Transforming ideas ",
-        "hero_title_2": " into digital reality.",
-        "hero_subtitle": "Innovative Solutions in Mobile and Web Development.",
-        "hero_cta": "Get Started"
-    },
-    "featuresSection": {
-        "features_title": "Our Features Special For You",
-        "features_description": "We provide various special features for all of you.",
-        "mobile_app_title": "Mobile App Development",
-        "mobile_app_description": "We create innovative and functional mobile applications for iOS and Android, tailored to your business needs.",
-        "web_dev_title": "Web Development",
-        "web_dev_description": "Our team designs and develops responsive, high-performance websites that drive engagement and growth.",
-        "qa_title": "MVP Consulting",
-        "qa_description": "Turn your idea into a successful MVP. Our consulting provides you with the tools and knowledge needed to validate your product and reach the market faster."
-    },
-    "codeSection": {
-        "code_title": "The language for building web pages",
-        "code_description": "Go live on a fast, reliable, and hassle-free hosting network that scales with your business with one click and go code!"
-    },
-    "ourStory": {
-        "ourStory_title": "Our Story",
-        "ourStory_description": "Founded by a passionate team of digital innovators, byteCode is dedicated to transforming your ideas into reality. With expertise in mobile and web development, we deliver solutions that are not only functional but also innovative and user-friendly.",
-        "mission_title": "Mission",
-        "mission_description": "To deliver innovative and high-quality digital solutions that empower businesses to achieve their goals.",
-        "vision_title": "Vision",
-        "vision_description": "To be the trusted technology partner for startups, providing high-quality custom software solutions that drive their growth and success."
-    },
-    "ourProjects": {
-        "ourProjects_title": "Our Projects",
-        "ourProjects_description": "Discover how we've transformed ideas into successful digital products for our clients. From mobile apps to web portals, explore our portfolio and see the impact of our work."
-    },
-    "faqSection": {
-        "faqSection_title": "FAQs",
-        "question_1": "Can I find the right information faster?",
-        "answer_1": "Nulla lectus lectus, suscipit at posuere sit amet, imperdiet sit amet sapien...",
-        "question_2": "How to share feature demos and ideas?",
-        "answer_2": "Nulla lectus lectus, suscipit at posuere sit amet, imperdiet sit amet sapien...",
-        "question_3": "Can I find the right information faster?",
-        "answer_3": "How to get insights from users?",
-        "question_4": "Can I develop my website without code?",
-        "answer_4": "Can I develop my website without code?"
-    },
-    "footer": {
-        "footer_title": "Get in Touch",
-        "footer_description": "Have a project in mind? Let's make it a reality.",
-        "name": "Name",
-        "email": "E-mail",
-        "message": "Tell us more about your issues.",
-        "button": "Send"
-    }
+  "heroSection": {
+    "hero_title_1": "Transforming ideas ",
+    "hero_title_2": " into digital reality.",
+    "hero_subtitle": "Innovative Solutions in Software Development and Engineering Outsourcing.",
+    "hero_cta": "Get Started"
+  },
+  "featuresSection": {
+    "features_title": "Our Special Features",
+    "features_description": "We provide tailored solutions to meet your business needs.",
+    "mobile_app_title": "Mobile App Development",
+    "mobile_app_description": "We create innovative and functional mobile applications for iOS and Android, tailored to your business needs.",
+    "web_dev_title": "Web Development",
+    "web_dev_description": "Our team designs and develops responsive, high-performance websites that drive engagement and growth.",
+    "qa_title": "Engineering Outsourcing",
+    "qa_description": "Leverage our pool of skilled engineers to accelerate your projects and achieve your business goals."
+  },
+  "codeSection": {
+    "code_title": "The language for building web pages",
+    "code_description": "Go live on a fast, reliable, and hassle-free hosting network that scales with your business with one click and go code!"
+  },
+  "ourStory": {
+    "ourStory_title": "Our Story",
+    "ourStory_description": "Founded by a passionate team of digital innovators in LATAM, byteCode is dedicated to transforming your ideas into reality. With expertise in software development and engineering outsourcing, we deliver solutions that are not only functional but also innovative and user-friendly.",
+    "mission_title": "Mission",
+    "mission_description": "To deliver innovative and high-quality digital solutions that empower businesses in the USA and Europe to achieve their goals.",
+    "vision_title": "Vision",
+    "vision_description": "To be the trusted technology partner for startups, providing high-quality custom software solutions and engineering talent that drive their growth and success."
+  },
+  "ourProjects": {
+    "ourProjects_title": "Our Projects",
+    "ourProjects_description": "Discover how we've transformed ideas into successful digital products for our clients. From mobile apps to web portals, explore our portfolio and see the impact of our work."
+  },
+  "faqSection": {
+    "faqSection_title": "FAQs",
+    "question_1": "What services do you offer?",
+    "answer_1": "We offer mobile app development, web development, and engineering outsourcing services tailored to your business needs.",
+    "question_2": "How can I get started with your services?",
+    "answer_2": "You can get started by contacting us through our website or sending us an email. We'll discuss your project requirements and provide a tailored solution.",
+    "question_3": "What is your approach to project management?",
+    "answer_3": "We follow an agile project management approach, ensuring flexibility and timely delivery of high-quality solutions.",
+    "question_4": "How do you ensure the quality of your services?",
+    "answer_4": "We have a dedicated QA team and follow best practices in software development to ensure the highest quality of our services."
+  },
+  "footer": {
+    "footer_title": "Get in Touch",
+    "footer_description": "Have a project in mind? Let's make it a reality.",
+    "name": "Name",
+    "email": "E-mail",
+    "message": "Tell us more about your project.",
+    "button": "Send"
+  }
 }
