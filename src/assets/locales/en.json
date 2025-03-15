@@ -29,7 +29,8 @@
   },
   "ourProjects": {
     "ourProjects_title": "Our Projects",
-    "ourProjects_description": "Discover how we've transformed ideas into successful digital products for our clients. From mobile apps to web portals, explore our portfolio and see the impact of our work."
+    "ourProjects_description": "Discover how we've transformed ideas into successful digital products for our clients. From mobile apps to web portals, explore our portfolio and see the impact of our work.",
+    "view_project": "View Project"
   },
   "faqSection": {
     "faqSection_title": "FAQs",

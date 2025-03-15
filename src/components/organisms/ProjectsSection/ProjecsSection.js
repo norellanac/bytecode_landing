@@ -7,48 +7,47 @@ import {
   CardMedia,
   Chip,
   Grid,
-  Button,
   IconButton,
+  Link,
+  useMediaQuery,
+  useTheme,
 } from '@mui/material';
 import { ArrowBackIos, ArrowForwardIos } from '@mui/icons-material';
-import projectImage1 from '../../../assets/images/project1.png';
-import projectImage2 from '../../../assets/images/project2.png';
-import projectImage3 from '../../../assets/images/project3.png';
+import projectImage1 from '../../../assets/images/reco.png';
+import projectImage2 from '../../../assets/images/cometas.png';
+import projectImage3 from '../../../assets/images/swagger-ui-docs.png';
 import { useTranslation } from 'react-i18next';
 
 const OurProjectsSection = () => {
   const { t } = useTranslation();
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   const projects = [
     {
-      title: 'Project 1',
-      tags: ['React Native', 'Material UI'],
+      title: 'Reco | Profesionales de confianza',
+      tags: ['Web App', 'React'],
       image: projectImage1,
+      link: 'https://recolatam.com/',
     },
     {
-      title: 'Project 2',
-      tags: ['React Native', 'Redux'],
+      title: 'Cometas Club',
+      tags: ['Website', 'Infantil'],
       image: projectImage2,
+      link: 'https://cometasclub.com/',
+      description: 'Donde los niños exploran, crean y crecen. Aprende a través de la diversión en un ambiente seguro y amigable.',
     },
     {
-      title: 'Project 3',
-      tags: ['React Native', 'Redux'],
+      title: 'Reco REST API',
+      tags: ['REST API', 'Postman Docs'],
       image: projectImage3,
-    },
-    {
-      title: 'Project 4',
-      tags: ['React', 'GraphQL'],
-      image: projectImage1,
-    },
-    {
-      title: 'Project 5',
-      tags: ['Next.js', 'TypeScript'],
-      image: projectImage2,
+      link: 'https://dev.recolatam.com/api-docs/',
+      description: 'API development and documentation using Postman.',
     },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
-  const visibleSlides = 3;
+  const visibleSlides = isMobile ? 1 : 3;
 
   const handleNext = () => {
     setCurrentIndex(prevIndex =>
@@ -63,9 +62,9 @@ const OurProjectsSection = () => {
   };
 
   return (
-    <Box sx={{ backgroundColor: 'white', padding: '150px 50px' }}>
+    <Box sx={{ backgroundColor: 'white', padding: { xs: '50px 20px', md: '150px 50px' } }}>
       <Grid container spacing={2}>
-        <Grid xs={12} sx={{ textAlign: 'center', marginBottom: '20px' }}>
+        <Grid item xs={12} sx={{ textAlign: 'center', marginBottom: '20px' }}>
           <Typography
             variant="h3"
             fontFamily="Aeonik"
@@ -80,7 +79,7 @@ const OurProjectsSection = () => {
           </Typography>
         </Grid>
 
-        {/* Carrusel de proyectos */}
+        {/* Project Carousel */}
         <Grid container justifyContent="center" alignItems="center">
           <Grid item xs={1} textAlign="center">
             <IconButton onClick={handlePrev}>
@@ -94,57 +93,69 @@ const OurProjectsSection = () => {
                 .slice(currentIndex, currentIndex + visibleSlides)
                 .map((project, index) => (
                   <Grid item key={index} xs={12} sm={6} md={4}>
-                    <Card
-                      sx={{
-                        maxWidth: 345,
-                        height: 'auto',
-                        transition: 'all 0.3s ease',
-                        boxShadow:
-                          index === 1
-                            ? '0px 8px 16px rgba(0, 0, 0, 0.2)'
-                            : 'none',
-                        borderRadius: '16px',
-                      }}
-                    >
-                      <CardContent>
-                        <Typography
-                          variant="h5"
-                          fontFamily="Aeonik"
-                          fontWeight="bold"
-                          textAlign="center"
-                        >
-                          {project.title}
-                        </Typography>
-                        <Box
-                          sx={{
-                            display: 'flex',
-                            gap: '10px',
-                            justifyContent: 'center',
-                            marginTop: '10px',
-                          }}
-                        >
-                          {project.tags.map((tag, idx) => (
-                            <Chip
-                              key={idx}
-                              label={tag}
-                              sx={{
-                                backgroundColor:
-                                  tag === 'React Native'
-                                    ? '#DDF247'
-                                    : '#000000',
-                                color: tag === 'React Native' ? '#000' : '#fff',
-                              }}
-                            />
-                          ))}
-                        </Box>
-                      </CardContent>
-                      <CardMedia
-                        component="img"
-                        height="200"
-                        image={project.image}
-                        alt={`Image of ${project.title}`}
-                      />
-                    </Card>
+                    <Link href={project.link} target="_blank" underline="none">
+                      <Card
+                        sx={{
+                          maxWidth: 345,
+                          height: 'auto',
+                          transition: 'all 0.3s ease',
+                          boxShadow:
+                            index === 1
+                              ? '0px 8px 16px rgba(0, 0, 0, 0.2)'
+                              : 'none',
+                          borderRadius: '16px',
+                        }}
+                      >
+                        <CardContent>
+                          <Typography
+                            variant="h5"
+                            fontFamily="Aeonik"
+                            fontWeight="bold"
+                            textAlign="center"
+                          >
+                            {project.title}
+                          </Typography>
+                          <Box
+                            sx={{
+                              display: 'flex',
+                              gap: '10px',
+                              justifyContent: 'center',
+                              marginTop: '10px',
+                            }}
+                          >
+                            {project.tags.map((tag, idx) => (
+                              <Chip
+                                key={idx}
+                                label={tag}
+                                sx={{
+                                  backgroundColor:
+                                    tag === 'React' || tag === 'Web App'
+                                      ? '#DDF247'
+                                      : '#000000',
+                                  color: tag === 'React' || tag === 'Web App' ? '#000' : '#fff',
+                                }}
+                              />
+                            ))}
+                          </Box>
+                          {project.description && (
+                            <Typography
+                              variant="body2"
+                              fontFamily="Aeonik"
+                              textAlign="center"
+                              marginTop="10px"
+                            >
+                              {project.description}
+                            </Typography>
+                          )}
+                        </CardContent>
+                        <CardMedia
+                          component="img"
+                          height="200"
+                          image={project.image}
+                          alt={`Image of ${project.title}`}
+                        />
+                      </Card>
+                    </Link>
                   </Grid>
                 ))}
             </Grid>

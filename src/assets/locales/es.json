@@ -29,7 +29,8 @@
   },
   "ourProjects": {
     "ourProjects_title": "Nuestros Proyectos",
-    "ourProjects_description": "Descubre cómo hemos transformado ideas en productos digitales exitosos para nuestros clientes. Desde aplicaciones móviles hasta portales web, explora nuestro portafolio y ve el impacto de nuestro trabajo."
+    "ourProjects_description": "Descubre cómo hemos transformado ideas en productos digitales exitosos para nuestros clientes. Desde aplicaciones móviles hasta portales web, explora nuestro portafolio y ve el impacto de nuestro trabajo.",
+    "view_project": "Ver Proyecto"
   },
   "faqSection": {
     "faqSection_title": "Preguntas Frecuentes",
