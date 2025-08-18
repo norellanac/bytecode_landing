@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.5590dd53.css",
-    "main.js": "/static/js/main.260acd78.js",
-    "static/media/heroImage.png": "/static/media/heroImage.b7e0d0ba6c488c392839.png",
-    "static/media/byteCode_ourStory.png": "/static/media/byteCode_ourStory.19763ff3a5a3b151858f.png",
-    "static/media/reco.png": "/static/media/reco.33f2ec9ec2b147e1bb10.png",
-    "static/media/cometas.png": "/static/media/cometas.74c5eaf8e64faaef534e.png",
-    "static/media/CodeSection.png": "/static/media/CodeSection.1ffc7ba208462c90517a.png",
-    "static/media/swagger-ui-docs.png": "/static/media/swagger-ui-docs.5018d7ae149f660f26e1.png",
+    "main.css": "/static/css/main.dde6bedf.css",
+    "main.js": "/static/js/main.03db3f4e.js",
+    "static/media/byteCode_ourStory.jpg": "/static/media/byteCode_ourStory.ad36b5ff6834bc1f2416.jpg",
+    "static/media/reco_desktop.jpg": "/static/media/reco_desktop.72e79f29d840027e231c.jpg",
+    "static/media/RecoApp.jpg": "/static/media/RecoApp.04509d4e990fa77240ad.jpg",
+    "static/media/RecoRestAPI.jpg": "/static/media/RecoRestAPI.9605b9b77db739b6a95c.jpg",
+    "static/media/CodeSection.jpg": "/static/media/CodeSection.424fea29c9f38b21eac0.jpg",
+    "static/media/byteCodeScrum.jpg": "/static/media/byteCodeScrum.0450f4ed23e38dff1ffc.jpg",
+    "static/media/CometasWebsite.jpg": "/static/media/CometasWebsite.c84931ab09514985453d.jpg",
     "static/media/redux_logo.svg": "/static/media/redux_logo.6a38fb6a01ef8e1a309f30989e9b908e.svg",
     "static/media/byteCode_Logo_white.svg": "/static/media/byteCode_Logo_white.a2b0591e8a7385ffe3f8fe96c4c71a98.svg",
     "static/media/byteCode_Logo.svg": "/static/media/byteCode_Logo.5f974110bd02000d4eebef9e64823a36.svg",
@@ -18,20 +19,20 @@
     "static/media/nodejs_logo.svg": "/static/media/nodejs_logo.ac5c27c9b666bab0ac241125fe7161b3.svg",
     "static/media/aws_logo.svg": "/static/media/aws_logo.f87a6c7fe14d0a0304a17d5c38f3afb0.svg",
     "static/media/CodeCircle.svg": "/static/media/CodeCircle.2f6d499688754b3ef196b8fb792eaa4b.svg",
-    "static/media/qaConsultingIcon.svg": "/static/media/qaConsultingIcon.374cbe7a35fb12c8da56743f66eef2fc.svg",
-    "static/media/mobile_app_icon.svg": "/static/media/mobile_app_icon.c4ac3912c30e31701979aa151baa336a.svg",
+    "static/media/mobile_app_icon.svg": "/static/media/mobile_app_icon.6f5030cde5046409ebe3311fbe14a9a0.svg",
     "index.html": "/index.html",
-    "static/media/web_dev_icon.svg": "/static/media/web_dev_icon.8b34be03860e40d7ac77e3219453067d.svg",
-    "static/media/icon.svg": "/static/media/icon.250829218335e96947acfe1261694224.svg",
+    "static/media/web_dev_icon.svg": "/static/media/web_dev_icon.baf64f264f3e758cc49616ec6e2d8416.svg",
+    "static/media/webOptimizationIcon.svg": "/static/media/webOptimizationIcon.01179a82e90eeaf36029a942f6aabfb8.svg",
+    "static/media/qaConsultingIcon.svg": "/static/media/qaConsultingIcon.b43dcfbbe0648f54e7094e525c2b6fec.svg",
     "static/media/visionIcon.svg": "/static/media/visionIcon.1ef5c456454d64c5f6192a53c3af1004.svg",
-    "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
+    "static/media/getFetch.cjs": "/static/media/getFetch.7a7a1c81840c96d5a3ea.cjs",
     "static/media/icon_arrow-up-right.svg": "/static/media/icon_arrow-up-right.d3a9f5b0910c958791ee71a281ea46ee.svg",
     "static/media/missionIcon.svg": "/static/media/missionIcon.26a7569c8191364a575773860fd4d09e.svg",
-    "main.5590dd53.css.map": "/static/css/main.5590dd53.css.map",
-    "main.260acd78.js.map": "/static/js/main.260acd78.js.map"
+    "main.dde6bedf.css.map": "/static/css/main.dde6bedf.css.map",
+    "main.03db3f4e.js.map": "/static/js/main.03db3f4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5590dd53.css",
-    "static/js/main.260acd78.js"
+    "static/css/main.dde6bedf.css",
+    "static/js/main.03db3f4e.js"
   ]
 }
